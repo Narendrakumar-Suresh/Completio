@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+
+*{
+    background-color: antiquewhite;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+}
+
+.content {
+    /* Add styles for your content here */
+    flex: 1; /* Allow the content to grow and fill available space */
+}
+
+.taskadder{
+    /* display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+    background:#01579b !important ;
+}
+
+.taskadder input{
+    margin: 5px;
+    padding: 2px;
+    height: 35px;
+    width: 65%;
+    border-radius: 25px;
+}
+
+input[type='text']{
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.taskadder button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    padding: 2px;
+    height: 35px;
+    width: 65px;
+    border-radius: 50px;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+}
