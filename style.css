@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
 
 
-*{
+/* *{
     background-color: antiquewhite;
-}
+} */
 
 body {
     margin: 0;
@@ -11,6 +11,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh; 
+    background-color: antiquewhite;
 }
 
 .content {
@@ -28,6 +29,7 @@ body {
     justify-content: center;
     padding: 60px;
     /*background:#01579b !important ;*/
+    background-color: rgb(227, 227, 236);
 }
 
 .taskadder input{
@@ -57,4 +59,13 @@ input[type='text']{
     font-size: 20px;
     font-family: 'Raleway', sans-serif;
     background-color: white;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    align-items: center;
 }
