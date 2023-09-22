@@ -4,10 +4,16 @@ const checkboxContainer = document.querySelector('#checkbox-container');
 
 function tasker(){
     var task=document.getElementById("tasks");
-    ongoing.push(task.value);
+    let t=task.value;
+    if(t.trim()===""){
+        alert("Enter some value.");
+    }else{
+        ongoing.push(t);
+        contentview();
+        task.value='';
+    }
     // alert(tasky);
-    task.value='';
-    contentview();
+    
 }
 
 function contentview() {
@@ -31,6 +37,7 @@ function contentview() {
         ccontent.appendChild(div);
     }
 }
+
 
 
 
