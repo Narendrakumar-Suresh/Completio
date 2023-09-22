@@ -7,11 +7,10 @@ function tasker(){
     ongoing.push(task.value);
     // alert(tasky);
     task.value='';
-    displayTasksAsCheckboxes();
-    //contentview(ongoing);
+    contentview();
 }
 
-function displayTasksAsCheckboxes() {
+function contentview() {
     var ccontent = document.getElementById("content");
     ccontent.innerHTML = ''; // Clear the existing content
 
