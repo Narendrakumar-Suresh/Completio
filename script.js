@@ -1,6 +1,9 @@
 var ongoing=[];
 var completed=[];
+var checkbox = document.createElement("input");
+var label = document.createElement("label");
 const checkboxContainer = document.querySelector('#checkbox-container');
+var element;
 
 function tasker(){
     var task=document.getElementById("tasks");
@@ -21,12 +24,10 @@ function contentview() {
     ccontent.innerHTML = ''; // Clear the existing content
 
     for (var i = 0; i < ongoing.length; i++) {
-        var checkbox = document.createElement("input");
         checkbox.type = "checkbox";
         checkbox.value = ongoing[i];
         checkbox.id = "task-" + i;
 
-        var label = document.createElement("label");
         label.htmlFor = "task-" + i;
         label.appendChild(document.createTextNode(ongoing[i]));
 
@@ -37,8 +38,6 @@ function contentview() {
         ccontent.appendChild(div);
     }
 }
-
-
 
 
 
