@@ -16,7 +16,6 @@ function tasker() {
 
 function contentview() {
   var ccontent = document.getElementById("content");
-  // Clear the existing content
   ccontent.innerHTML = '';
 
   for (var i = 0; i < ongoing.length; i++) {
@@ -36,4 +35,16 @@ function contentview() {
 
     ccontent.appendChild(div);
   }
+  alert("New task added");
 }
+
+// function completed(){
+//     let j;
+//     const checkbox = document.getElementById('myCheckbox');
+//     for(j in ongoing){
+//         if (checkbox.checked){
+//             completed[i]=
+//         }
+//     }
+// }
+
