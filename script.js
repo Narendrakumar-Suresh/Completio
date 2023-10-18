@@ -14,6 +14,7 @@ function tasker() {
   }
 }
 
+// viewing in home page
 function contentview() {
   var ccontent = document.getElementById("content");
   ccontent.innerHTML = '';
