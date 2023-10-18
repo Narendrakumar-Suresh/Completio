@@ -38,13 +38,13 @@ function contentview() {
   alert("New task added");
 }
 
-// function completed(){
-//     let j;
-//     const checkbox = document.getElementById('myCheckbox');
-//     for(j in ongoing){
-//         if (checkbox.checked){
-//             completed[i]=
-//         }
-//     }
-// }
+function completedl(){
+  let i,j,k;
+  for(i in ongoing){
+    j=ongoing[i];
+    if (checkbox.checked){
+      completed=j;
+    }
+  }
+}
 
