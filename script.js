@@ -1,5 +1,5 @@
 var ongoing = [];
-var completed = [];
+// var completed = [];
 var checkboxContainer = document.querySelector('#checkbox-container');
 
 function tasker() {
@@ -36,16 +36,5 @@ function contentview() {
 
     ccontent.appendChild(div);
   }
-  alert("New task added");
+  //alert("New task added");
 }
-
-function completedl(){
-  let i,j,k;
-  for(i in ongoing){
-    j=ongoing[i];
-    if (checkbox.checked){
-      completed=j;
-    }
-  }
-}
-
