@@ -1,2 +1,2 @@
 # Completio
-A basic todo website using HTML, JS and CSS
+Short term todo list website 
